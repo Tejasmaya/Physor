@@ -8,6 +8,14 @@
      padding: 10px;
 }
 
+@media screen and (max-width:746px) {
+     .sidebar {
+          display: none;
+     }
+
+
+}
+
 .mani {
      position: relative;
      /* top: 50%; */
@@ -206,7 +214,7 @@
 
 .sidebar {
 
-     display: inline-block;
+     /* display: inline-block; */
      position: absolute;
      position: fixed;
      /* position: sticky; */
@@ -223,6 +231,11 @@
      width: 26%;
      /* height: 100%; */
      z-index: 2;
+}
+
+.sidebar ul li {
+     font-size: 80%;
+
 }
 
 .sidebar button {
